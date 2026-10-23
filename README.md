@@ -2,9 +2,8 @@
   <img src="docs/banner.png" alt="Arrow, een browser voor de Mac" width="100%">
 </p>
 
-<h1 align="center">
-  <img src="docs/icon.png" width="44" align="center" alt=""> Arrow
-</h1>
+<p align="center"><img src="docs/icon.png" width="96" alt="Arrow-logo"></p>
+<h1 align="center">Arrow</h1>
 
 <p align="center"><b>Aim. Release. Arrive.</b><br>Een rustige, snelle browser voor de Mac.</p>
 
@@ -33,7 +32,7 @@ Arrow is een browser voor de Mac, gebouwd rond hoe je echt werkt. Werk en privé
 | **.dmg** | Open het bestand en sleep **Arrow** naar **Programma's**. |
 | **.pkg** | Dubbelklik en volg de stappen; Arrow komt vanzelf in Programma's. |
 
-Bij de eerste start helpt een korte welkomst je op weg. Je kunt daar meteen je bladwijzers, geschiedenis en wachtwoorden importeren uit **Chrome, Safari, Firefox, Edge, Brave** of **Arc**.
+Bij de eerste start helpt een korte welkomst je op weg. Je kunt daar meteen je bladwijzers, geschiedenis en wachtwoorden importeren uit **Chrome, Safari, Firefox, Edge** of **Brave**.
 
 > Arrow is ondertekend met een Apple Developer ID en door Apple genotariseerd. Je krijgt dus geen waarschuwing bij het openen.
 
