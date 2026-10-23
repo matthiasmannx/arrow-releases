@@ -19,6 +19,8 @@
   <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-1d1640" alt="macOS Apple Silicon">
   <img src="https://img.shields.io/badge/Chromium-156-1d1640" alt="Chromium 156">
   <img src="https://img.shields.io/badge/Apple-genotariseerd-2fb457" alt="Door Apple genotariseerd">
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmatthiasmannx%2Farrow-releases%2Fmain%2Fdocs%2Finstalls.json&label=installaties&cacheSeconds=3600" alt="installaties">
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmatthiasmannx%2Farrow-releases%2Fmain%2Fdocs%2Factive.json&label=actieve%20Arrows&cacheSeconds=3600" alt="actieve Arrows">
 </p>
 
 ---

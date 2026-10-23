@@ -1,0 +1,43 @@
+# Elk uur de downloadcijfers bijwerken voor de badges op de projectpagina.
+# Installaties = .dmg + .pkg; actieve Arrows = schatting uit updates (.zip) en updatechecks (feed.json, ± 8 per dag per Arrow).
+name: Downloadcijfers
+on:
+  schedule: [{ cron: '17 * * * *' }]
+  release: { types: [published] }
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cijfers ophalen
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh api "repos/${{ github.repository }}/releases?per_page=100" > releases.json
+          node -e '
+            const rel = require("./releases.json");
+            const sum = (re) => rel.flatMap(r => r.assets).filter(a => re.test(a.name)).reduce((s, a) => s + a.download_count, 0);
+            const installs = sum(/\.(dmg|pkg)$/);
+            const latest = rel.find(r => !r.draft && !r.prerelease);
+            let active = 0;
+            if (latest) {
+              const days = Math.max(1, (Date.now() - Date.parse(latest.published_at)) / 864e5);
+              const zips = latest.assets.filter(a => /\.zip$/.test(a.name)).reduce((s, a) => s + a.download_count, 0);
+              const checks = latest.assets.filter(a => a.name === "feed.json").reduce((s, a) => s + a.download_count, 0);
+              active = Math.max(zips, Math.round(checks / days / 8));
+            }
+            const fs = require("fs");
+            fs.mkdirSync("docs", { recursive: true });
+            fs.writeFileSync("docs/installs.json", JSON.stringify({ schemaVersion: 1, label: "installs", message: String(installs), color: "6D3DF5" }));
+            fs.writeFileSync("docs/active.json", JSON.stringify({ schemaVersion: 1, label: "active", message: "≈ " + active, color: "2fb457" }));
+            console.log({ installs, active });
+          '
+          rm releases.json
+      - name: Opslaan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/installs.json docs/active.json
+          git diff --cached --quiet || (git commit -m "Downloadcijfers bijgewerkt" && git push)
