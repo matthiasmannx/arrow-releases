@@ -1,13 +1,13 @@
-<p align="center"><b>🇳🇱 Nederlands</b> · <a href="README.en.md">🇬🇧 English</a></p>
+<p align="center"><b>🇬🇧 English</b> · <a href="README.nl.md">🇳🇱 Nederlands</a></p>
 
 <p align="center">
-  <img src="docs/banner.png" alt="Arrow, een browser voor de Mac" width="100%">
+  <img src="docs/banner.png" alt="Arrow, a browser for the Mac" width="100%">
 </p>
 
-<p align="center"><img src="docs/icon.png" width="96" alt="Arrow-logo"></p>
+<p align="center"><img src="docs/icon.png" width="96" alt="Arrow logo"></p>
 <h1 align="center">Arrow</h1>
 
-<p align="center"><b>Aim. Release. Arrive.</b><br>Een rustige, snelle browser voor de Mac.</p>
+<p align="center"><b>Aim. Release. Arrive.</b><br>A calm, fast browser for the Mac.</p>
 
 <p align="center">
   <a href="https://github.com/matthiasmannx/arrow-releases/releases/latest/download/Arrow.dmg"><img src="https://img.shields.io/badge/Download-Arrow.dmg-6D3DF5?style=for-the-badge&logo=apple&logoColor=white" alt="Download Arrow.dmg"></a>
@@ -15,80 +15,80 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/matthiasmannx/arrow-releases?label=versie&color=7b55f0" alt="versie">
+  <img src="https://img.shields.io/github/v/release/matthiasmannx/arrow-releases?label=version&color=7b55f0" alt="version">
   <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-1d1640" alt="macOS Apple Silicon">
   <img src="https://img.shields.io/badge/Chromium-156-1d1640" alt="Chromium 156">
-  <img src="https://img.shields.io/badge/Apple-genotariseerd-2fb457" alt="Door Apple genotariseerd">
+  <img src="https://img.shields.io/badge/Apple-notarised-2fb457" alt="Notarised by Apple">
 </p>
 
 ---
 
-## Wat is Arrow?
+## What is Arrow?
 
-Arrow is een browser voor de Mac, gebouwd rond hoe je echt werkt. Werk en privé lopen nooit door elkaar, je vaste sites staan binnen één klik, en tabs ruimen zichzelf op. Onder de motorkap draait Chromium, dezelfde motor als Chrome, dus elke site en elke Chrome-extensie werkt gewoon.
+Arrow is a browser for the Mac, built around how you actually work. Work and personal never mix, your go-to sites are one click away, and tabs tidy themselves up. Under the hood runs Chromium, the same engine as Chrome, so every site and every Chrome extension just works.
 
-## Installeren
-
-| | |
-|---|---|
-| **.dmg** | Open het bestand en sleep **Arrow** naar **Programma's**. |
-| **.pkg** | Dubbelklik en volg de stappen; Arrow komt vanzelf in Programma's. |
-
-Bij de eerste start helpt een korte welkomst je op weg. Je kunt daar meteen je bladwijzers, geschiedenis en wachtwoorden importeren uit **Chrome, Safari, Firefox, Edge** of **Brave**.
-
-> Arrow is ondertekend met een Apple Developer ID en door Apple genotariseerd. Je krijgt dus geen waarschuwing bij het openen.
-
-## Functies
+## Install
 
 | | |
 |---|---|
-| 🪐 **Spaces** | Aparte werelden voor werk en privé, elk met eigen logins, cookies en extensies. Wisselen met de bolletjes onderin, een veeg of de duimknoppen van je muis. |
-| ⚡ **Commandobalk** | Druk **⌘T**: zoeken, een adres typen of naar een open tab springen. |
-| ⭐ **Favorieten en mappen** | Je vaste sites als tegels, met een eigen naam, emoji of afbeelding. |
-| 🪟 **Split view en Peek** | Twee sites naast elkaar, of een link even laten zweven zonder je tab te verliezen. |
-| 🐣 **Little Arrow** | Links uit Outlook, Teams of Slack openen in een klein los venster. |
-| 💼 **Werk- en privémodus** | Eén klik opent je startset. Per modus bepaal je welke sites je mogen storen en welke even op pauze gaan. |
-| 🔐 **Wachtwoorden** | Bewaren, invullen en sterke wachtwoorden voorstellen. Bekijken met Touch ID. |
-| 📸 **Schermafbeelding en opname** | Zoals op macOS, met een editor om te markeren, bij te snijden of een video in te korten. |
-| 🧩 **Alle Chrome-extensies** | Uit de Chrome Web Store, met een zijpaneel zoals in Chrome, en een ontwikkelaarsmodus voor je eigen extensies. |
-| 🎨 **Jouw stijl** | Zes thema's, drie stijlen voor je tegels, Nederlands of Engels. |
+| **.dmg** | Open the file and drag **Arrow** to **Applications**. |
+| **.pkg** | Double-click and follow the steps; Arrow ends up in Applications by itself. |
 
-## Veilig en privé
+On first launch a short welcome gets you going. You can import your bookmarks, history and passwords from **Chrome, Safari, Firefox, Edge** or **Brave** right there.
 
-Arrow heeft geen account, geen telemetrie en geen advertentie-ID. Alles wat Arrow controleert, controleert hij op je eigen Mac.
+> Arrow is signed with an Apple Developer ID and notarised by Apple, so you won't see a warning when you open it.
 
-- **Phishing- en malwarebescherming** met open lijsten (URLhaus, Phishing Army, OpenPhish), lokaal vergeleken. Er gaat geen enkel adres van jou naar buiten.
-- **Altijd HTTPS.** Gewone http-adressen worden beveiligd geopend; lukt dat niet, dan zie je een duidelijke waarschuwing.
-- **Versleuteld op schijf.** Logins en wachtwoorden staan versleuteld; de sleutels staan in je macOS-sleutelhanger.
-- **Afgeschermd.** Elke site in een eigen proces en sandbox, en Arrow zelf draait met de hardened runtime van macOS.
+## Features
 
-## Snel
+| | |
+|---|---|
+| 🪐 **Spaces** | Separate worlds for work and personal, each with its own logins, cookies and extensions. Switch with the dots at the bottom, a swipe or your mouse thumb buttons. |
+| ⚡ **Command bar** | Press **⌘T**: search, type an address or jump to an open tab. |
+| ⭐ **Favorites and folders** | Your go-to sites as tiles, with your own name, emoji or picture. |
+| 🪟 **Split view and Peek** | Two sites side by side, or let a link float in front of you without losing your tab. |
+| 🐣 **Little Arrow** | Links from Outlook, Teams or Slack open in a small separate window. |
+| 💼 **Work and personal mode** | One click opens your start set. Per mode you decide which sites may disturb you and which are paused. |
+| 🔐 **Passwords** | Save, fill and suggest strong passwords. View them with Touch ID. |
+| 📸 **Screenshots and recordings** | Just like macOS, with an editor to annotate, crop or trim a video. |
+| 🧩 **Every Chrome extension** | From the Chrome Web Store, with a side panel like Chrome's, and a developer mode for your own extensions. |
+| 🎨 **Your style** | Six themes, three tile styles, English or Dutch. |
 
-- Arrow legt al verbinding met een site als je over een bladwijzer beweegt, dus de pagina staat er sneller.
-- Tabs die je een uur niet bekijkt geven hun geheugen terug, en blijven gewoon in de zijbalk staan.
-- Grote downloads komen in meerdere delen tegelijk binnen.
+## Safe and private
+
+Arrow has no account, no telemetry and no advertising ID. Everything Arrow checks, it checks on your own Mac.
+
+- **Phishing and malware protection** using open lists (URLhaus, Phishing Army, OpenPhish), compared locally. Not a single address of yours leaves your Mac.
+- **Always HTTPS.** Plain http addresses open securely; if that fails, you get a clear warning.
+- **Encrypted on disk.** Logins and passwords are encrypted; the keys live in your macOS keychain.
+- **Isolated.** Every site runs in its own process and sandbox, and Arrow itself runs with the macOS hardened runtime.
+
+## Fast
+
+- Arrow starts connecting to a site as soon as you hover over a bookmark, so the page appears sooner.
+- Tabs you haven't looked at for an hour give their memory back and stay right where they are in the sidebar.
+- Large downloads come in several parts at once.
 
 ## Updates
 
-Je hoeft nooit zelf iets te downloaden. Arrow kijkt elke 3 uur of er een nieuwe versie is en installeert die als je hem afsluit. **Beveiligingsupdates** gaan altijd, **nieuwe functies** zoals jij wilt in *Instellingen → Updates*. Elke update moet met dezelfde Developer ID ondertekend zijn, anders weigert Arrow hem.
+You never have to download anything yourself. Arrow checks for a new version every 3 hours and installs it when you quit. **Security updates** always install, **new features** as you choose in *Settings → Updates*. Every update must be signed with the same Developer ID, or Arrow refuses it.
 
-## Handige sneltoetsen
+## Handy shortcuts
 
-| Toets | Wat |
+| Key | What |
 |---|---|
-| **⌘T** | Nieuwe tab of naar een open tab springen |
-| **⌘D** | Tab vastzetten of losmaken |
-| **⌃1 … ⌃9** | Naar space 1 t/m 9 |
-| **⌃⇧=** | Split view met de vorige tab |
-| **⇧⌘2** / **⇧⌘5** | Schermafbeelding / schermopname |
-| **⌘/** | Alle sneltoetsen (en zelf aanpassen) |
+| **⌘T** | New tab or jump to an open tab |
+| **⌘D** | Pin or unpin a tab |
+| **⌃1 … ⌃9** | Go to space 1 to 9 |
+| **⌃⇧=** | Split view with the previous tab |
+| **⇧⌘2** / **⇧⌘5** | Screenshot / screen recording |
+| **⌘/** | All shortcuts (and change them) |
 
-## Vragen
+## Questions
 
-<details><summary><b>Werkt Arrow op een Intel-Mac?</b></summary><br>Nog niet; Arrow is gebouwd voor Macs met Apple Silicon (M1 en nieuwer).</details>
-<details><summary><b>Kan ik mijn wachtwoorden meenemen?</b></summary><br>Ja. Uit Chrome, Edge en Brave direct bij het importeren; uit Safari, Firefox of 1Password via een CSV-export in <i>Instellingen → Wachtwoorden → Importeren</i>.</details>
-<details><summary><b>Waar is de broncode?</b></summary><br>Deze pagina bevat alleen de ondertekende releases van Arrow, niet de broncode.</details>
+<details><summary><b>Does Arrow work on an Intel Mac?</b></summary><br>Not yet; Arrow is built for Macs with Apple Silicon (M1 and newer).</details>
+<details><summary><b>Can I bring my passwords?</b></summary><br>Yes. From Chrome, Edge and Brave directly while importing; from Safari, Firefox or 1Password through a CSV export in <i>Settings → Passwords → Import</i>.</details>
+<details><summary><b>Where is the source code?</b></summary><br>This page only contains the signed releases of Arrow, not the source code.</details>
 
 ---
 
-<p align="center"><sub>Designed &amp; Developed by <b>Matthias Mann</b> · tips of vragen: matthiasmann175@gmail.com</sub></p>
+<p align="center"><sub>Designed &amp; Developed by <b>Matthias Mann</b> · tips or questions: matthiasmann175@gmail.com</sub></p>
