@@ -16,7 +16,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/v/release/matthiasmannx/arrow-releases?label=versie&color=7b55f0" alt="versie">
-  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-1d1640" alt="macOS Apple Silicon">
+  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20%26%20Intel-1d1640" alt="macOS Apple Silicon en Intel">
   <img src="https://img.shields.io/badge/Chromium-156-1d1640" alt="Chromium 156">
   <img src="https://img.shields.io/badge/Apple-genotariseerd-2fb457" alt="Door Apple genotariseerd">
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmatthiasmannx%2Farrow-releases%2Fmain%2Fdocs%2Finstalls.json&label=installaties&cacheSeconds=3600" alt="installaties">
@@ -117,7 +117,7 @@ Je hoeft nooit zelf iets te downloaden. Arrow kijkt elke 3 uur of er een nieuwe 
 
 ## Vragen
 
-<details><summary><b>Werkt Arrow op een Intel-Mac?</b></summary><br>Nog niet; Arrow is gebouwd voor Macs met Apple Silicon (M1 en nieuwer).</details>
+<details><summary><b>Werkt Arrow op een Intel-Mac?</b></summary><br>Ja. Eén download werkt op Macs met Apple Silicon én Intel (macOS 12 of nieuwer). Vertalen met de eigen vertaling van macOS vraagt macOS 26.</details>
 <details><summary><b>Kan ik mijn wachtwoorden meenemen?</b></summary><br>Ja. Uit Chrome, Edge en Brave direct bij het importeren; uit Safari, Firefox of 1Password via een CSV-export in <i>Instellingen → Wachtwoorden → Importeren</i>.</details>
 <details><summary><b>Waar is de broncode?</b></summary><br>Deze pagina bevat alleen de ondertekende releases van Arrow, niet de broncode.</details>
 

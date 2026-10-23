@@ -16,7 +16,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/v/release/matthiasmannx/arrow-releases?label=version&color=7b55f0" alt="version">
-  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-1d1640" alt="macOS Apple Silicon">
+  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20%26%20Intel-1d1640" alt="macOS Apple Silicon and Intel">
   <img src="https://img.shields.io/badge/Chromium-156-1d1640" alt="Chromium 156">
   <img src="https://img.shields.io/badge/Apple-notarised-2fb457" alt="Notarised by Apple">
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmatthiasmannx%2Farrow-releases%2Fmain%2Fdocs%2Finstalls.json&label=installs&cacheSeconds=3600" alt="installs">
@@ -117,7 +117,7 @@ You never have to download anything yourself. Arrow checks for a new version eve
 
 ## Questions
 
-<details><summary><b>Does Arrow work on an Intel Mac?</b></summary><br>Not yet; Arrow is built for Macs with Apple Silicon (M1 and newer).</details>
+<details><summary><b>Does Arrow work on an Intel Mac?</b></summary><br>Yes. One download works on both Apple Silicon and Intel Macs (macOS 12 or newer). Translating with macOS's own translation needs macOS 26.</details>
 <details><summary><b>Can I bring my passwords?</b></summary><br>Yes. From Chrome, Edge and Brave directly while importing; from Safari, Firefox or 1Password through a CSV export in <i>Settings → Passwords → Import</i>.</details>
 <details><summary><b>Where is the source code?</b></summary><br>This page only contains the signed releases of Arrow, not the source code.</details>
 
