@@ -45,9 +45,10 @@ On first launch a short welcome gets you going. You can import your bookmarks, h
 | | |
 |---|---|
 | 🪐 **Spaces** | Separate worlds for work and personal, each with its own logins, cookies and extensions. Switch with the dots at the bottom, a swipe or your mouse thumb buttons. |
-| ⚡ **Command bar** | Press **⌘T**: search, type an address or jump to an open tab. |
+| ⚡ **Command bar** | Press **⌘T**: search, type an address or jump to an open tab. It completes as you type, does sums (`12*7`), converts units and currencies (`50 usd in eur`) and runs actions (`qr`, `dark`, `pipette`). |
 | ⭐ **Favorites and folders** | Your go-to sites as tiles, with your own name, emoji or picture. |
 | 🪟 **Split view and Peek** | Two sites side by side, or let a link float in front of you without losing your tab. |
+| 🕶️ **Private window** | **⇧⌘N**: nothing is saved, everything is gone when you close it. Closed a tab by accident? **⇧⌘T** brings it back. |
 | 🐣 **Little Arrow** | Links from Outlook, Teams or Slack open in a small separate window. |
 | 💼 **Work and personal mode** | One click opens your start set. Per mode you decide which sites may disturb you and which are paused. |
 | 🔐 **Passwords** | Save, fill and suggest strong passwords. View them with Touch ID. |
@@ -55,13 +56,31 @@ On first launch a short welcome gets you going. You can import your bookmarks, h
 | 🧩 **Every Chrome extension** | From the Chrome Web Store, with a side panel like Chrome's, and a developer mode for your own extensions. |
 | 🎨 **Your style** | Six themes, three tile styles, English or Dutch. |
 
+## Fundamentals
+
+The things you'd normally install an extension for are built in. They live in the **Fundamentals** menu and under the puzzle piece in the sidebar, which also shows whether each one works on the page you're on. They only run when you use them, so Arrow stays light.
+
+| | |
+|---|---|
+| 🍪 **Cookie banners** | Rejected automatically ("Reject all" / "Only necessary"), with a per-site choice. |
+| 🌙 **Dark mode for sites** | Light sites turn dark; sites with their own dark theme are left alone. **⇧⌘D** per site. |
+| ⏩ **Video speed and volume** | Any video faster or slower (**⌃.** / **⌃,**) and a volume per tab, also from the mini player. |
+| ↻ **Auto reload** | Reload a tab every 30 seconds to an hour, or your own time. Never while you're typing. |
+| 🎨 **Colour picker** | **⇧⌘I**: point at any colour on the page, the hex code is on your clipboard. |
+| 📱 **QR code** | Send the page to your phone, made on your own Mac. |
+| 📝 **Markdown link** | **⌥⇧⌘C**: `[title](url)`, or a clickable link when you paste in Notion, Mail or Word. |
+| 📜 **Full-page screenshot** | The whole page, sharp on Retina, including images that load as you scroll. |
+| `{}` **JSON viewer** | JSON addresses as a collapsible tree with search and copy. |
+
 ## Safe and private
 
 Arrow has no account, no telemetry and no advertising ID. Everything Arrow checks, it checks on your own Mac.
 
 - **Phishing and malware protection** using open lists (URLhaus, Phishing Army, OpenPhish), compared locally. Not a single address of yours leaves your Mac.
 - **Always HTTPS.** Plain http addresses open securely; if that fails, you get a clear warning.
-- **Encrypted on disk.** Logins and passwords are encrypted; the keys live in your macOS keychain.
+- **Encrypted on disk.** Logins and passwords are encrypted, with keys only Arrow itself can read.
+- **Permissions on request.** A site can't read your clipboard, open other apps or use your camera without asking first.
+- **Sealed.** Arrow's own windows never load a website, and the app checks itself for tampering.
 - **Isolated.** Every site runs in its own process and sandbox, and Arrow itself runs with the macOS hardened runtime.
 
 ## Fast
@@ -72,7 +91,7 @@ Arrow has no account, no telemetry and no advertising ID. Everything Arrow check
 
 ## Updates
 
-You never have to download anything yourself. Arrow checks for a new version every 3 hours and installs it when you quit. **Security updates** always install, **new features** as you choose in *Settings → Updates*. Every update must be signed with the same Developer ID, or Arrow refuses it.
+You never have to download anything yourself. Arrow checks for a new version every 3 hours and installs it when you quit. **Security updates** always install, **new features** as you choose in *Settings → Updates*. Every update must be signed with the same Developer ID, or Arrow refuses it, and Arrow never goes back to an older version.
 
 ## Handy shortcuts
 
@@ -82,7 +101,11 @@ You never have to download anything yourself. Arrow checks for a new version eve
 | **⌘D** | Pin or unpin a tab |
 | **⌃1 … ⌃9** | Go to space 1 to 9 |
 | **⌃⇧=** | Split view with the previous tab |
+| **⇧⌘N** | New private window |
+| **⇧⌘T** | Reopen closed tab |
 | **⇧⌘2** / **⇧⌘5** | Screenshot / screen recording |
+| **⇧⌘D** | Dark mode for this site |
+| **⌃.** / **⌃,** | Video faster / slower |
 | **⌘/** | All shortcuts (and change them) |
 
 ## Questions

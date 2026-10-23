@@ -45,9 +45,10 @@ Bij de eerste start helpt een korte welkomst je op weg. Je kunt daar meteen je b
 | | |
 |---|---|
 | 🪐 **Spaces** | Aparte werelden voor werk en privé, elk met eigen logins, cookies en extensies. Wisselen met de bolletjes onderin, een veeg of de duimknoppen van je muis. |
-| ⚡ **Commandobalk** | Druk **⌘T**: zoeken, een adres typen of naar een open tab springen. |
+| ⚡ **Commandobalk** | Druk **⌘T**: zoeken, een adres typen of naar een open tab springen. Hij vult aan terwijl je typt, rekent (`12*7`), rekent eenheden en valuta om (`50 usd in eur`) en voert acties uit (`qr`, `donker`, `pipet`). |
 | ⭐ **Favorieten en mappen** | Je vaste sites als tegels, met een eigen naam, emoji of afbeelding. |
 | 🪟 **Split view en Peek** | Twee sites naast elkaar, of een link even laten zweven zonder je tab te verliezen. |
+| 🕶️ **Privévenster** | **⇧⌘N**: er wordt niets bewaard, alles is weg als je het sluit. Per ongeluk een tab gesloten? **⇧⌘T** haalt hem terug. |
 | 🐣 **Little Arrow** | Links uit Outlook, Teams of Slack openen in een klein los venster. |
 | 💼 **Werk- en privémodus** | Eén klik opent je startset. Per modus bepaal je welke sites je mogen storen en welke even op pauze gaan. |
 | 🔐 **Wachtwoorden** | Bewaren, invullen en sterke wachtwoorden voorstellen. Bekijken met Touch ID. |
@@ -55,13 +56,31 @@ Bij de eerste start helpt een korte welkomst je op weg. Je kunt daar meteen je b
 | 🧩 **Alle Chrome-extensies** | Uit de Chrome Web Store, met een zijpaneel zoals in Chrome, en een ontwikkelaarsmodus voor je eigen extensies. |
 | 🎨 **Jouw stijl** | Zes thema's, drie stijlen voor je tegels, Nederlands of Engels. |
 
+## Fundamentals
+
+Waar je normaal een extensie voor installeert, zit er gewoon in. Je vindt het in het menu **Fundamentals** en onder het puzzelstukje in de zijbalk, waar je ook ziet of het op de huidige pagina werkt. Het draait alleen als je het gebruikt, dus Arrow blijft licht.
+
+| | |
+|---|---|
+| 🍪 **Cookiemeldingen** | Automatisch geweigerd ("Alles weigeren" / "Alleen noodzakelijk"), met een keuze per site. |
+| 🌙 **Donkere modus voor sites** | Lichte sites worden donker; sites met een eigen donker thema blijven zoals ze zijn. **⇧⌘D** per site. |
+| ⏩ **Videosnelheid en volume** | Elke video sneller of langzamer (**⌃.** / **⌃,**) en een volume per tab, ook vanuit de miniplayer. |
+| ↻ **Automatisch herladen** | Een tab elke 30 seconden tot elk uur verversen, of je eigen tijd. Nooit terwijl je typt. |
+| 🎨 **Kleurpipet** | **⇧⌘I**: wijs een kleur aan op de pagina, de hex-code staat op je klembord. |
+| 📱 **QR-code** | De pagina naar je telefoon, gemaakt op je eigen Mac. |
+| 📝 **Markdown-link** | **⌥⇧⌘C**: `[titel](url)`, of een klikbare link als je plakt in Notion, Mail of Word. |
+| 📜 **Hele pagina vastleggen** | De volledige pagina, scherp op Retina, inclusief afbeeldingen die pas bij scrollen laden. |
+| `{}` **JSON-weergave** | JSON-adressen als inklapbare boom met zoeken en kopiëren. |
+
 ## Veilig en privé
 
 Arrow heeft geen account, geen telemetrie en geen advertentie-ID. Alles wat Arrow controleert, controleert hij op je eigen Mac.
 
 - **Phishing- en malwarebescherming** met open lijsten (URLhaus, Phishing Army, OpenPhish), lokaal vergeleken. Er gaat geen enkel adres van jou naar buiten.
 - **Altijd HTTPS.** Gewone http-adressen worden beveiligd geopend; lukt dat niet, dan zie je een duidelijke waarschuwing.
-- **Versleuteld op schijf.** Logins en wachtwoorden staan versleuteld; de sleutels staan in je macOS-sleutelhanger.
+- **Versleuteld op schijf.** Logins en wachtwoorden staan versleuteld, met sleutels die alleen Arrow zelf kan lezen.
+- **Toestemming op verzoek.** Een site kan je klembord niet lezen, geen andere apps openen en je camera niet gebruiken zonder het eerst te vragen.
+- **Dichtgetimmerd.** Arrows eigen vensters laden nooit een website, en de app controleert zichzelf op aanpassingen.
 - **Afgeschermd.** Elke site in een eigen proces en sandbox, en Arrow zelf draait met de hardened runtime van macOS.
 
 ## Snel
@@ -72,7 +91,7 @@ Arrow heeft geen account, geen telemetrie en geen advertentie-ID. Alles wat Arro
 
 ## Updates
 
-Je hoeft nooit zelf iets te downloaden. Arrow kijkt elke 3 uur of er een nieuwe versie is en installeert die als je hem afsluit. **Beveiligingsupdates** gaan altijd, **nieuwe functies** zoals jij wilt in *Instellingen → Updates*. Elke update moet met dezelfde Developer ID ondertekend zijn, anders weigert Arrow hem.
+Je hoeft nooit zelf iets te downloaden. Arrow kijkt elke 3 uur of er een nieuwe versie is en installeert die als je hem afsluit. **Beveiligingsupdates** gaan altijd, **nieuwe functies** zoals jij wilt in *Instellingen → Updates*. Elke update moet met dezelfde Developer ID ondertekend zijn, anders weigert Arrow hem, en Arrow gaat nooit terug naar een oudere versie.
 
 ## Handige sneltoetsen
 
@@ -82,7 +101,11 @@ Je hoeft nooit zelf iets te downloaden. Arrow kijkt elke 3 uur of er een nieuwe 
 | **⌘D** | Tab vastzetten of losmaken |
 | **⌃1 … ⌃9** | Naar space 1 t/m 9 |
 | **⌃⇧=** | Split view met de vorige tab |
+| **⇧⌘N** | Nieuw privévenster |
+| **⇧⌘T** | Gesloten tab heropenen |
 | **⇧⌘2** / **⇧⌘5** | Schermafbeelding / schermopname |
+| **⇧⌘D** | Donkere modus voor deze site |
+| **⌃.** / **⌃,** | Video sneller / langzamer |
 | **⌘/** | Alle sneltoetsen (en zelf aanpassen) |
 
 ## Vragen
