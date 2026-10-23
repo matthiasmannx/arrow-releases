@@ -1,7 +1,7 @@
 <p align="center"><a href="README.md">🇬🇧 English</a> · <b>🇳🇱 Nederlands</b></p>
 
 <p align="center">
-  <img src="docs/banner.png" alt="Arrow, een browser voor de Mac" width="100%">
+  <img src="docs/banner-nl.png" alt="Arrow, een browser voor de Mac" width="100%">
 </p>
 
 <p align="center"><img src="docs/icon.png" width="96" alt="Arrow-logo"></p>
