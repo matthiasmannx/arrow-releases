@@ -51,9 +51,14 @@ On first launch a short welcome gets you going. You can import your bookmarks, h
 | 🕶️ **Private window** | **⇧⌘N**: nothing is saved, everything is gone when you close it. Closed a tab by accident? **⇧⌘T** brings it back. |
 | 🐣 **Little Arrow** | Links from Outlook, Teams or Slack open in a small separate window. |
 | 💼 **Work and personal mode** | One click opens your start set. Per mode you decide which sites may disturb you and which are paused. |
-| 🔐 **Passwords** | Save, fill and suggest strong passwords. View them with Touch ID. |
+| 🔐 **Passwords, addresses and cards** | Save, fill and suggest strong passwords. Addresses and payment cards fill with one click; cards only after Touch ID, and the CVC is never stored. |
+| 🌐 **Translate** | **⌥⌘T** translates the page with macOS's own translation, so the text never leaves your Mac. |
+| 📖 **Reader view** | **⌥⌘R**: just the article, in a calm layout with your font size and light, sepia or dark. |
+| 🕘 **History** | **⌘Y**: search everything you visited, and clear a page, a day or a whole site. |
 | 📸 **Screenshots and recordings** | Just like macOS, with an editor to annotate, crop or trim a video. |
 | 🧩 **Every Chrome extension** | From the Chrome Web Store, with a side panel like Chrome's, and a developer mode for your own extensions. |
+| 🧭 **Per-site settings** | Click the padlock to set dark mode, cookie banners, auto reload and permissions for that site; all of them together in *Settings → Sites*. |
+| 🏁 **Start pages** | Choose which sites open when Arrow starts. |
 | 🎨 **Your style** | Six themes, three tile styles, English or Dutch. |
 
 ## Fundamentals
@@ -105,6 +110,8 @@ You never have to download anything yourself. Arrow checks for a new version eve
 | **⇧⌘T** | Reopen closed tab |
 | **⇧⌘2** / **⇧⌘5** | Screenshot / screen recording |
 | **⇧⌘D** | Dark mode for this site |
+| **⌥⌘R** / **⌥⌘T** | Reader view / translate |
+| **⌘Y** | History |
 | **⌃.** / **⌃,** | Video faster / slower |
 | **⌘/** | All shortcuts (and change them) |
 

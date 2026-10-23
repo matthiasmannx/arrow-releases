@@ -51,9 +51,14 @@ Bij de eerste start helpt een korte welkomst je op weg. Je kunt daar meteen je b
 | 🕶️ **Privévenster** | **⇧⌘N**: er wordt niets bewaard, alles is weg als je het sluit. Per ongeluk een tab gesloten? **⇧⌘T** haalt hem terug. |
 | 🐣 **Little Arrow** | Links uit Outlook, Teams of Slack openen in een klein los venster. |
 | 💼 **Werk- en privémodus** | Eén klik opent je startset. Per modus bepaal je welke sites je mogen storen en welke even op pauze gaan. |
-| 🔐 **Wachtwoorden** | Bewaren, invullen en sterke wachtwoorden voorstellen. Bekijken met Touch ID. |
+| 🔐 **Wachtwoorden, adressen en kaarten** | Bewaren, invullen en sterke wachtwoorden voorstellen. Adressen en betaalkaarten vul je met één klik in; kaarten pas na Touch ID, en de CVC wordt nooit bewaard. |
+| 🌐 **Vertalen** | **⌥⌘T** vertaalt de pagina met de eigen vertaling van macOS, dus de tekst verlaat je Mac niet. |
+| 📖 **Leesweergave** | **⌥⌘R**: alleen het artikel, rustig opgemaakt in jouw lettergrootte en licht, sepia of donker. |
+| 🕘 **Geschiedenis** | **⌘Y**: zoeken in alles wat je bezocht, en een pagina, een dag of een hele site wissen. |
 | 📸 **Schermafbeelding en opname** | Zoals op macOS, met een editor om te markeren, bij te snijden of een video in te korten. |
 | 🧩 **Alle Chrome-extensies** | Uit de Chrome Web Store, met een zijpaneel zoals in Chrome, en een ontwikkelaarsmodus voor je eigen extensies. |
+| 🧭 **Instellingen per site** | Klik op het slotje voor donkere modus, cookiemeldingen, automatisch herladen en toestemmingen van die site; alles bij elkaar in *Instellingen → Sites*. |
+| 🏁 **Startpagina's** | Kies welke sites Arrow opent als hij start. |
 | 🎨 **Jouw stijl** | Zes thema's, drie stijlen voor je tegels, Nederlands of Engels. |
 
 ## Fundamentals
@@ -105,6 +110,8 @@ Je hoeft nooit zelf iets te downloaden. Arrow kijkt elke 3 uur of er een nieuwe 
 | **⇧⌘T** | Gesloten tab heropenen |
 | **⇧⌘2** / **⇧⌘5** | Schermafbeelding / schermopname |
 | **⇧⌘D** | Donkere modus voor deze site |
+| **⌥⌘R** / **⌥⌘T** | Leesweergave / vertalen |
+| **⌘Y** | Geschiedenis |
 | **⌃.** / **⌃,** | Video sneller / langzamer |
 | **⌘/** | Alle sneltoetsen (en zelf aanpassen) |
 
