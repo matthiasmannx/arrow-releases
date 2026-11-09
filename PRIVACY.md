@@ -20,7 +20,8 @@ These files are never sent to the developer.
 
 ## Connections Arrow makes itself
 - The sites you open.
-- Search suggestions from your chosen search engine while you type in the command bar (can be turned off on the Mac in Settings).
+- Search suggestions while you type in the command bar, requested from your chosen search engine (Google, Bing or DuckDuckGo; other engines: none). You can turn this off in Settings on the iPhone and on the Mac.
+- Files you choose to download, and a site's own icon (once per site).
 - A public list of advertising and tracking domains (pgl.yoyo.org), refreshed about once a week, used to block ads on your device.
 
 ## Permissions
